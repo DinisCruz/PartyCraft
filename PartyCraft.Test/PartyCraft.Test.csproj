@@ -56,12 +56,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Craft.Net\Craft.Net\Craft.Net.csproj">
-      <Project>{c3bbab7e-606f-420e-9461-c8cfaec2476b}</Project>
+    <ProjectReference Include="..\externals\Craft.Net\Craft.Net.Server\Craft.Net.Server.csproj">
+      <Project>{E00C6FF6-BCD8-44E0-BCD8-5F1BDF201617}</Project>
+      <Name>Craft.Net.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\Craft.Net\Craft.Net\Craft.Net.csproj">
+      <Project>{C3BBAB7E-606F-420E-9461-C8CFAEC2476B}</Project>
       <Name>Craft.Net</Name>
     </ProjectReference>
     <ProjectReference Include="..\PartyCraft.API\PartyCraft.API.csproj">
-      <Project>{6d88e39f-5dc9-4c0a-84d6-25b835243503}</Project>
+      <Project>{6D88E39F-5DC9-4C0A-84D6-25B835243503}</Project>
       <Name>PartyCraft.API</Name>
     </ProjectReference>
     <ProjectReference Include="..\PartyCraft\PartyCraft.csproj">
